@@ -168,10 +168,12 @@ const items: MenuItem[] = [
           { key: 'G-02-01_01', label: <Link to='/grammar/...'>Present</Link> },
           { key: 'G-02-01_02', label: <Link to='/grammar/...'>Past</Link> },
           { key: 'G-02-01_03', label: <Link to='/grammar/...'>Future (will, is going to, continues)</Link> },
-        ]},
+        ]
+      },
+      { key: 'G-02-02', label: <Link to='/grammar/modalWindow'>Modal verbs</Link> },
+      { key: 'G-02-03', label: <Link to='/grammar/orderQuestions'>Types of questions</Link> },
       { key: 'G-02-01', label: <Link to='/grammar/...'>Action and state verbs - Глаголы действия и состояния</Link> },
       { key: 'G-02-01', label: <Link to='/grammar/...'>Used to do and be used to doing smth</Link> },
-      { key: 'G-02-01', label: <Link to='/grammar/...'>Modal verbs</Link> },
       // (must, have to, should, may, might, can, could, to be able to)
       { key: 'G-02-01', label: <Link to='/grammar/...'>Gerund</Link> },
       { key: 'G-02-01', label: <Link to='/grammar/...'>Infinitive</Link> },
@@ -179,7 +181,6 @@ const items: MenuItem[] = [
       { key: 'G-02-01', label: <Link to='/grammar/...'>Articles: a/an, the, no article</Link> },
       { key: 'G-02-01', label: <Link to='/grammar/...'>Quantifiers and modifiers </Link> },
       // (any, some, few, a lot of, a piece of, too, enough, a little, a few)
-      { key: 'G-02-05', label: <Link to='/grammar/orderQuestions'>Word order in questions, types of questions</Link> },
       { key: 'G-02-01', label: <Link to='/grammar/...'>Prepositions of time and place</Link> },
       { key: 'G-02-01', label: <Link to='/grammar/...'>1, 2, 3 and zero conditional, Future time clauses</Link> },
       { key: 'G-02-01', label: <Link to='/grammar/...'> Passive voice </Link> },
