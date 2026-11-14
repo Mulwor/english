@@ -279,8 +279,8 @@ export const fears_dialog_02 = [
   },
   {
     key: '27',
-    english: "Just try. One floor. If you don't like it, we'll never take it again. => Thinks... Okay, fine. But you have to hold my hand the whole time.",
-    russian: 'Просто попробуй. Один этаж. Если не понравится, никогда больше не поедем. => Думает... Ладно, хорошо. Но ты должен держать меня за руку всё время.',
+    english: "Just try. One floor. If you don't like it, we'll never take it again. => (Thinks...) - Okay, fine. But you have to hold my hand the whole time.",
+    russian: 'Просто попробуй. Один этаж. Если не понравится, никогда больше не поедем. => (Думает...) - Ладно, хорошо. Но ты должен держать меня за руку всё время.',
   },
   {
     key: '28',
@@ -302,8 +302,8 @@ export const fears_dialog_02 = [
 export const fears_dialog_03 = [
   {
     key: '1',
-    english: 'Loud thunder AHHH! (Jumps) => Whoa! Rachel, you scared me! ',
-    russian: 'Громкий гром ААА! (Подпрыгивает) => Ого! Рейчел, ты меня напугала! ',
+    english: '(Loud thunder) AHHH! (Jumps) => Whoa! Rachel, you scared me! ',
+    russian: '(Громкий раскат грома) ААА! (Подпрыгивает) => Ого! Рейчел, ты меня напугала! ',
   },
   {
     key: '2',
@@ -327,8 +327,8 @@ export const fears_dialog_03 = [
   },
   {
     key: '6',
-    english: 'More thunder See? Every time it thunders, I remember that night.',
-    russian: 'Ещё гром Видишь? Каждый раз, когда гремит гром, я вспоминаю ту ночь.',
+    english: '(More thunder) - See? Every time it thunders, I remember that night.',
+    russian: '(Ещё раз ударил гром) - Видишь? Каждый раз, когда гремит гром, я вспоминаю ту ночь.',
   },
   {
     key: '7',
@@ -412,8 +412,8 @@ export const fears_dialog_03 = [
   },
   {
     key: '23',
-    english: "Chris? We're ready for you. => Panicking Oh no. Oh no. Here we go.",
-    russian: 'Крис? Мы готовы. => Паникуя О нет. О нет. Ну, пошли.',
+    english: "Chris? We're ready for you. => (Panicking) - Oh no. Oh no. Here we go.",
+    russian: 'Крис? Мы готовы. => (Паникуя) - О нет. О нет. Ну, пошли.',
   },
   {
     key: '24',
@@ -427,13 +427,13 @@ export const fears_dialog_03 = [
   },
   {
     key: '26',
-    english: "I'm... I'm going to the beach next month. => Nice! Which beach? => Feels pinch OW!",
-    russian: 'Я... Я еду на пляж в следующем месяце. => Круто! На какой пляж? => Чувствует укол ОЙ!',
+    english: "I'm... I'm going to the beach next month. => Nice! Which beach? => (Feels pinch) - OW!",
+    russian: 'Я... Я еду на пляж в следующем месяце. => Круто! На какой пляж? => (Чувствует укол) - ОЙ!',
   },
   {
     key: '27',
     english: 'Is it done? => All done! You were very brave. => That is it? It was not that bad.',
-    russian: 'ОЙ! Всё? => Всё готово! Вы были очень храбрым. => И всё? Было не так уж плохо.',
+    russian: 'Всё? => Всё готово! Вы были очень храбрым. => И всё? Было не так уж плохо.',
   },
   {
     key: '28',
@@ -531,7 +531,7 @@ export const fears_dialog_04 = [
   {
     key: '18',
     english: 'My dentist is okay. But the drill sound makes me want to run away.',
-    russian: 'Мой стоматолог нормальный. Но звук бормашины заставляет меня хотеть убежать.',
+    russian: 'Мой стоматолог нормальный. Но звук дрели заставляет меня хотеть убежать.',
   },
   {
     key: '19',

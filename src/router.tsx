@@ -37,6 +37,7 @@ import {
 import { AllPhrasalVerbs } from './skills/speaking/phrasal-verbs/AllPhrasalVerbs';
 import { HolidaysAndTravelling } from './skills/speaking/pre-intermediate/holidays/Holidays';
 import { PhrasalVerbs } from './skills/grammar/phrasalVerbs/PhrasalVerbs';
+import { Questions } from './skills/grammar/Questions';
 
 const Layout = () => (
   <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
@@ -195,7 +196,7 @@ export const router = createBrowserRouter([
       // { path: "articles", element: <div>В процессе</div> },
       // { path: "modal-verbs", element: <div>В процессе</div> },
       // { path: "there-is-are", element: <div>В процессе</div> },
-      // { path: "word-order-questions", element: <div>В процессе</div> },
+      { path: "orderQuestions", element: <Questions /> },
       // { path: "comparative-superlative", element: <div>В процессе</div> },
     ],
   },
