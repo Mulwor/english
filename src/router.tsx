@@ -39,6 +39,8 @@ import { HolidaysAndTravelling } from './skills/speaking/pre-intermediate/holida
 import { PhrasalVerbs } from './skills/grammar/phrasalVerbs/PhrasalVerbs';
 import { Questions } from './skills/grammar/Questions';
 import { ModalWindow } from './skills/grammar/ModalWindow';
+import { Verbs } from './skills/grammar/Verbs';
+import { UsedToDo } from './skills/grammar/UsedToDo';
 
 const Layout = () => (
   <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
@@ -199,6 +201,8 @@ export const router = createBrowserRouter([
       // { path: "there-is-are", element: <div>В процессе</div> },
       { path: "orderQuestions", element: <Questions /> },
       { path: "modalWindow", element: <ModalWindow /> },
+      { path: "verbs", element: <Verbs /> },
+      { path: 'usedToDo', element: <UsedToDo />}
       // { path: "comparative-superlative", element: <div>В процессе</div> },
     ],
   },

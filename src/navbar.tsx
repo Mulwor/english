@@ -162,30 +162,52 @@ const items: MenuItem[] = [
     key: 'G',
     label: 'Grammar',
     children: [
-      { key: 'G-02-01', 
-        label: <Link to='/grammar/...'>Tense</Link>, 
+      { 
+        key: 'G-02-01', 
+        label: 'Present tenses',
         children: [
-          { key: 'G-02-01_01', label: <Link to='/grammar/...'>Present</Link> },
-          { key: 'G-02-01_02', label: <Link to='/grammar/...'>Past</Link> },
-          { key: 'G-02-01_03', label: <Link to='/grammar/...'>Future (will, is going to, continues)</Link> },
-        ]
+          { key: 'G-02-01-01', label: <Link to='/grammar/present/simple'>Simple</Link>},
+          { key: 'G-02-01-02', label: <Link to='/grammar/present/continues'>Continuous</Link>},
+          { key: 'G-02-01-03', label: <Link to='/grammar/verbs'>Verbs</Link> },
+          { key: 'G-02-01_04', label: <Link to='/grammar/present/perfect'>Perfect</Link> },
+          { key: 'G-02-09-05', label: <Link to='/grammar/present/perfectContinuous'>Perfect continuous</Link>},
+        ], 
       },
-      { key: 'G-02-02', label: <Link to='/grammar/modalWindow'>Modal verbs</Link> },
-      { key: 'G-02-03', label: <Link to='/grammar/orderQuestions'>Types of questions</Link> },
-      { key: 'G-02-01', label: <Link to='/grammar/...'>Action and state verbs - Глаголы действия и состояния</Link> },
-      { key: 'G-02-01', label: <Link to='/grammar/...'>Used to do and be used to doing smth</Link> },
+      { 
+        key: 'G-02-02', 
+        label: 'Past tenses',
+        children: [
+          { key: 'G-02-02-01', label: <Link to='/grammar/past/simple'>Simple</Link>},
+          { key: 'G-02-02-02', label: <Link to='/grammar/usedToDo'>Used to</Link> },
+          { key: 'G-02-02-03', label: <Link to='/grammar/past/continues'>Continuous</Link>},
+          { key: 'G-02-02_04', label: <Link to='/grammar/past/perfect'>Perfect</Link> },
+          { key: 'G-02-02-05', label: <Link to='/grammar/past/perfectContinuous'>Perfect continuous</Link>},
+        ], 
+      },
+      { 
+        key: 'G-02-03', 
+        label: 'Future tenses',
+        children: [
+          { key: 'G-02-03-01', label: <Link to='/grammar/future/simple'>Simple</Link>},
+          { key: 'G-02-03-02', label: <Link to='/grammar/future/continues'>Continuous</Link>},
+          { key: 'G-02-03_03', label: <Link to='/grammar/future/perfect'>Perfect</Link> },
+          { key: 'G-02-03-04', label: <Link to='/grammar/future/perfectContinuous'>Perfect continuous</Link>},
+        ], 
+      },
+      { key: 'G-02-04', label: <Link to='/grammar/modalWindow'>Modal verbs</Link> },
+      { key: 'G-02-05', label: <Link to='/grammar/orderQuestions'>Types of questions</Link> },
       // (must, have to, should, may, might, can, could, to be able to)
-      { key: 'G-02-01', label: <Link to='/grammar/...'>Gerund</Link> },
-      { key: 'G-02-01', label: <Link to='/grammar/...'>Infinitive</Link> },
-      { key: 'G-02-01', label: <Link to='/grammar/...'>Comparative and superlative degrees of adjectives </Link> },
-      { key: 'G-02-01', label: <Link to='/grammar/...'>Articles: a/an, the, no article</Link> },
-      { key: 'G-02-01', label: <Link to='/grammar/...'>Quantifiers and modifiers </Link> },
+      { key: 'G-02-06', label: <Link to='/grammar/...'>Gerund</Link> },
+      { key: 'G-02-07', label: <Link to='/grammar/...'>Infinitive</Link> },
+      { key: 'G-02-08', label: <Link to='/grammar/...'>Comparative and superlative degrees of adjectives </Link> },
+      { key: 'G-02-09', label: <Link to='/grammar/...'>Articles: a/an, the, no article</Link> },
+      { key: 'G-02-10', label: <Link to='/grammar/...'>Quantifiers and modifiers </Link> },
       // (any, some, few, a lot of, a piece of, too, enough, a little, a few)
-      { key: 'G-02-01', label: <Link to='/grammar/...'>Prepositions of time and place</Link> },
-      { key: 'G-02-01', label: <Link to='/grammar/...'>1, 2, 3 and zero conditional, Future time clauses</Link> },
-      { key: 'G-02-01', label: <Link to='/grammar/...'> Passive voice </Link> },
-      { key: 'G-02-01', label: <Link to='/grammar/...'>Reported speech (statements, questions, commands) </Link> },
-      { key: 'G-02-01', label: <Link to='/grammar/phrasal-verbs'>Phrasal verbs</Link> }
+      { key: 'G-02-11', label: <Link to='/grammar/...'>Prepositions of time and place</Link> },
+      { key: 'G-02-12', label: <Link to='/grammar/...'>1, 2, 3 and zero conditional, Future time clauses</Link> },
+      { key: 'G-02-13', label: <Link to='/grammar/...'> Passive voice </Link> },
+      { key: 'G-02-14', label: <Link to='/grammar/...'>Reported speech (statements, questions, commands) </Link> },
+      { key: 'G-02-15', label: <Link to='/grammar/phrasal-verbs'>Phrasal verbs</Link> }
 
     ]
   }

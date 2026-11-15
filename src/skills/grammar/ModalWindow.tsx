@@ -228,7 +228,7 @@ export const ModalWindow = () => {
       {/* OVERVIEW */}
       <Row gutter={[12, 12]} style={{ marginBottom: 28 }}>
         {sections.map((item) => (
-          <Col xs={12} sm={6} key={item.n}>
+          <Col xs={12} sm={8} key={item.n}>
             <Card
               hoverable
               bordered={false}
