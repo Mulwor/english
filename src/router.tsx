@@ -41,6 +41,8 @@ import { Questions } from './skills/grammar/Questions';
 import { ModalWindow } from './skills/grammar/ModalWindow';
 import { Verbs } from './skills/grammar/Verbs';
 import { UsedToDo } from './skills/grammar/UsedToDo';
+import { PresentSimple } from './skills/grammar/present/Simple';
+import { PresentContinuous } from './skills/grammar/present/Continuous';
 
 const Layout = () => (
   <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
@@ -192,7 +194,8 @@ export const router = createBrowserRouter([
       //   ],
       // },
       // { path: "future-simple", element: <div>В процессе</div> },
-      // { path: "present-simple", element: <div>В процессе</div> },
+      { path: "presentSimple", element: <PresentSimple />},
+      { path: "presentContinuous", element: <PresentContinuous /> },
       // { path: "singular-plural-nouns", element: <div>В процессе</div> },
       // { path: "prepositions", element: <div>В процессе</div> },
       // { path: "adverbs-frequency", element: <div>В процессе</div> },

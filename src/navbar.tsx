@@ -166,8 +166,8 @@ const items: MenuItem[] = [
         key: 'G-02-01', 
         label: 'Present tenses',
         children: [
-          { key: 'G-02-01-01', label: <Link to='/grammar/present/simple'>Simple</Link>},
-          { key: 'G-02-01-02', label: <Link to='/grammar/present/continues'>Continuous</Link>},
+          { key: 'G-02-01-01', label: <Link to='/grammar/presentSimple'>Simple</Link>},
+          { key: 'G-02-01-02', label: <Link to='/grammar/presentContinuous'>Continuous</Link>},
           { key: 'G-02-01-03', label: <Link to='/grammar/verbs'>Verbs</Link> },
           { key: 'G-02-01_04', label: <Link to='/grammar/present/perfect'>Perfect</Link> },
           { key: 'G-02-09-05', label: <Link to='/grammar/present/perfectContinuous'>Perfect continuous</Link>},
@@ -208,7 +208,6 @@ const items: MenuItem[] = [
       { key: 'G-02-13', label: <Link to='/grammar/...'> Passive voice </Link> },
       { key: 'G-02-14', label: <Link to='/grammar/...'>Reported speech (statements, questions, commands) </Link> },
       { key: 'G-02-15', label: <Link to='/grammar/phrasal-verbs'>Phrasal verbs</Link> }
-
     ]
   }
   // {
