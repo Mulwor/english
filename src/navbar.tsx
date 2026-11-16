@@ -5,92 +5,105 @@ import type { MenuProps } from 'antd';
 type MenuItem = Required<MenuProps>['items'][number];
 
 const items: MenuItem[] = [
-  {
-    key: 'S-01',
-    label: 'A1 (Beginner - elementary)',
-    children: [
-      // ! Beginner and elementary
-      {
-        key: 'S-01-1',
-        label: <Link to='/beginner-and-elementary/speaking/greeting'>Greeting</Link>,
-      },
-      {
-        key: 'S-01-2',
-        label: <Link to='/beginner-and-elementary/speaking/numbers'>Numbers</Link>,
-      },
-      {
-        key: 'S-01-3',
-        label: <Link to='/beginner-and-elementary/speaking/time'>Time</Link>,
-      },
-      {
-        key: 'S-01-4',
-        label: <Link to='/beginner-and-elementary/speaking/countries'>Countries</Link>,
-      },
-      {
-        key: 'S-01-5',
-        label: <Link to='/beginner-and-elementary/speaking/colors'>Colors</Link>,
-      },
-      {
-        key: 'S-01-6',
-        label: <Link to='/beginner-and-elementary/speaking/clothing'>Clothes</Link>,
-      },
-      {
-        key: 'S-01-7',
-        label: <Link to='/beginner-and-elementary/speaking/weather'>Weather</Link>,
-      },
-      {
-        key: 'S-01-8',
-        label: <Link to='/beginner-and-elementary/speaking/jobs'>Jobs</Link>,
-      },
-      {
-        key: 'S-01-9',
-        label: <Link to='/beginner-and-elementary/speaking/money'>Money</Link>,
-      },
-      {
-        key: 'S-01-10',
-        label: <Link to='/beginner-and-elementary/speaking/shopping'>Shopping</Link>,
-      },
-      {
-        key: 'S-01-11',
-        label: <Link to='/beginner-and-elementary/speaking/food-and-drinks'>Food and drinks</Link>,
-      },
-      {
-        key: 'S-01-12',
-        label: <Link to='/beginner-and-elementary/speaking/hobbies'>Hobbies</Link>,
-      },
-      {
-        key: 'S-01-13',
-        label: <Link to='/beginner-and-elementary/speaking/music-and-films'>Music and films</Link>,
-      },
-      {
-        key: 'S-01-14',
-        label: <Link to='/beginner-and-elementary/speaking/sport-and-fitness'>Sports and fitness</Link>,
-      },
-      {
-        key: 'S-01-15',
-        label: <Link to='/beginner-and-elementary/speaking/daily-routine'>Daily routine</Link>,
-      },
-      { key: 'S-011-EX', label: '---------------------' },
-      {
-        key: 'S-01-16',
-        label: <Link to='/beginner-and-elementary/speaking/describing-a-person'>Describing a person</Link>,
-      },
-      {
-        key: 'S-01-18',
-        label: <Link to='/beginner-and-elementary/speaking/holidays'>Holidays</Link>,
-      },
-      {
-        key: 'S-01-19',
-        label: <Link to='/beginner-and-elementary/speaking/house-and-furniture'>Houses and furniture</Link>,
-      },
-      { key: 'S-01-20', label: <Link to='/beginner-and-elementary/speaking/travel'>Travel</Link> },
-      { key: 'S-01-21', label: <Link to='/beginner-and-elementary/speaking/hotel'>Hotel</Link> },
-    ],
-  },
+  // {
+  //   key: 'S-01',
+  //   label: 'A1 (Beginner - elementary)',
+  //   children: [
+  //     // ! Beginner and elementary
+  //     {
+  //       key: 'S-01-1',
+  //       label: <Link to='/beginner-and-elementary/speaking/greeting'>Greeting</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-2',
+  //       label: <Link to='/beginner-and-elementary/speaking/numbers'>Numbers</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-3',
+  //       label: <Link to='/beginner-and-elementary/speaking/time'>Time</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-4',
+  //       label: <Link to='/beginner-and-elementary/speaking/countries'>Countries</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-5',
+  //       label: <Link to='/beginner-and-elementary/speaking/colors'>Colors</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-6',
+  //       label: <Link to='/beginner-and-elementary/speaking/clothing'>Clothes</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-7',
+  //       label: <Link to='/beginner-and-elementary/speaking/weather'>Weather</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-8',
+  //       label: <Link to='/beginner-and-elementary/speaking/jobs'>Jobs</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-9',
+  //       label: <Link to='/beginner-and-elementary/speaking/money'>Money</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-10',
+  //       label: <Link to='/beginner-and-elementary/speaking/shopping'>Shopping</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-11',
+  //       label: <Link to='/beginner-and-elementary/speaking/food-and-drinks'>Food and drinks</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-12',
+  //       label: <Link to='/beginner-and-elementary/speaking/hobbies'>Hobbies</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-13',
+  //       label: <Link to='/beginner-and-elementary/speaking/music-and-films'>Music and films</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-14',
+  //       label: <Link to='/beginner-and-elementary/speaking/sport-and-fitness'>Sports and fitness</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-15',
+  //       label: <Link to='/beginner-and-elementary/speaking/daily-routine'>Daily routine</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-16',
+  //       label: <Link to='/beginner-and-elementary/speaking/describing-a-person'>Describing a person</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-17',
+  //       label: <Link to='/beginner-and-elementary/speaking/house-and-furniture'>Houses and furniture</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-18',
+  //       label: <Link to='/beginner-and-elementary/speaking/holidays'>Holidays</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-19',
+  //       label: <Link to='/beginner-and-elementary/speaking/travel'>Travel</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-20',
+  //       label: <Link to='/beginner-and-elementary/speaking/hotel'>Hotel</Link>,
+  //     },
+  //   ],
+  // },
   {
     key: 'S-02',
     label: 'A2 (Pre-intermediate)',
     children: [
+      {
+        key: 'S-02-16',
+        label: <Link to='/pre-intermediate/speaking/animals'>Animals</Link>,
+      },
+      {
+        key: 'S-02-15',
+        label: <Link to='/pre-intermediate/speaking/fears-and-phobias'>Fears and phobias</Link>,
+      },
       {
         key: 'S-02-1',
         label: <Link to='/pre-intermediate/speaking/family-relationships-and-friendship'>Family relationships and friendship</Link>,
@@ -143,28 +156,64 @@ const items: MenuItem[] = [
         key: 'S-02-14',
         label: <Link to='/pre-intermediate/speaking/education'>Education</Link>,
       },
-      {
-        key: 'S-02-15',
-        label: <Link to='/pre-intermediate/speaking/fears-and-phobias'>Fears and phobias</Link>,
-      },
-      {
-        key: 'S-02-16',
-        label: <Link to='/pre-intermediate/speaking/animals'>Animals</Link>,
-      },
-      {
-        key: 'S-02-17',
-        label: <Link to='/pre-intermediate/speaking/news'>News</Link>,
-      },
-      // {
-      //   key: 'S-02-18',
-      //   label: <Link to='/pre-intermediate/speaking/phrasal-verbs'>Phrasal verbs</Link>,
-      // },
     ],
   },
   {
-    key: 'S-03',
-    label: 'B1 (Intermediate)',
-  },
+    key: 'G',
+    label: 'Grammar',
+    children: [
+      { 
+        key: 'G-02-01', 
+        label: 'Present tenses',
+        children: [
+          { key: 'G-02-01-01', label: <Link to='/grammar/presentSimple'>Simple</Link>},
+          { key: 'G-02-01-02', label: <Link to='/grammar/presentContinuous'>Continuous</Link>},
+          { key: 'G-02-01-03', label: <Link to='/grammar/verbs'>Verbs</Link> },
+          { key: 'G-02-01_04', label: <Link to='/grammar/present/perfect'>Perfect</Link> },
+          { key: 'G-02-09-05', label: <Link to='/grammar/present/perfectContinuous'>Perfect continuous</Link>},
+        ], 
+      },
+      { 
+        key: 'G-02-02', 
+        label: 'Past tenses',
+        children: [
+          { key: 'G-02-02-01', label: <Link to='/grammar/past/simple'>Simple</Link>},
+          { key: 'G-02-02-02', label: <Link to='/grammar/usedToDo'>Used to</Link> },
+          { key: 'G-02-02-03', label: <Link to='/grammar/past/continues'>Continuous</Link>},
+          { key: 'G-02-02_04', label: <Link to='/grammar/past/perfect'>Perfect</Link> },
+          { key: 'G-02-02-05', label: <Link to='/grammar/past/perfectContinuous'>Perfect continuous</Link>},
+        ], 
+      },
+      { 
+        key: 'G-02-03', 
+        label: 'Future tenses',
+        children: [
+          { key: 'G-02-03-01', label: <Link to='/grammar/future/simple'>Simple</Link>},
+          { key: 'G-02-03-02', label: <Link to='/grammar/future/continues'>Continuous</Link>},
+          { key: 'G-02-03_03', label: <Link to='/grammar/future/perfect'>Perfect</Link> },
+          { key: 'G-02-03-04', label: <Link to='/grammar/future/perfectContinuous'>Perfect continuous</Link>},
+        ], 
+      },
+      { key: 'G-02-04', label: <Link to='/grammar/modalWindow'>Modal verbs</Link> },
+      { key: 'G-02-05', label: <Link to='/grammar/orderQuestions'>Types of questions</Link> },
+      // (must, have to, should, may, might, can, could, to be able to)
+      { key: 'G-02-06', label: <Link to='/grammar/...'>Gerund</Link> },
+      { key: 'G-02-07', label: <Link to='/grammar/...'>Infinitive</Link> },
+      { key: 'G-02-08', label: <Link to='/grammar/...'>Comparative and superlative degrees of adjectives </Link> },
+      { key: 'G-02-09', label: <Link to='/grammar/...'>Articles: a/an, the, no article</Link> },
+      { key: 'G-02-10', label: <Link to='/grammar/...'>Quantifiers and modifiers </Link> },
+      // (any, some, few, a lot of, a piece of, too, enough, a little, a few)
+      { key: 'G-02-11', label: <Link to='/grammar/...'>Prepositions of time and place</Link> },
+      { key: 'G-02-12', label: <Link to='/grammar/...'>1, 2, 3 and zero conditional, Future time clauses</Link> },
+      { key: 'G-02-13', label: <Link to='/grammar/...'> Passive voice </Link> },
+      { key: 'G-02-14', label: <Link to='/grammar/...'>Reported speech (statements, questions, commands) </Link> },
+      { key: 'G-02-15', label: <Link to='/grammar/phrasal-verbs'>Phrasal verbs</Link> }
+    ]
+  }
+  // {
+  //   key: 'S-03',
+  //   label: 'B1 (Intermediate)',
+  // },
   // {
   //   key: 'S-V2-01',
   //   label: 'Speaking V2',
@@ -176,7 +225,9 @@ const items: MenuItem[] = [
   //         { key: 'S-V2-02_01', label: <Link to='/beginner-and-elementary/speaking/firstModule'>First module</Link> },
   //         { key: 'S-V2-02_02', label: <Link to='/beginner-and-elementary/speaking/secondModule'>Second module</Link> },
   //         { key: 'S-V2-02_03', label: <Link to='/beginner-and-elementary/speaking/thirdModule'>Third module</Link> },
-  //       ],
+  //     { key: 'S-02-17', label: <Link to='/pre-intermediate/speaking/news'>News</Link>, },
+  // ],
+
   //     },
   //   ]
   // },
@@ -247,14 +298,15 @@ const items: MenuItem[] = [
   //   label: <Link to='/beginner-and-elementary/reading-and-listening'>Reading and Listening</Link>,
   // },
   // {
-  //   key: "Arab",
-  //   label: "Арабский язык",
+  //   key: 'Arab',
+  //   label: 'Арабский язык',
   //   children: [
   //     {
-  //       key: "AR-01", label: <Link to="/arab/lesson-01">Урок №1</Link>
-  //     }
-  //   ]
-  // }
+  //       key: 'AR-01',
+  //       label: <Link to='/arab/lesson-01'>Урок №1</Link>,
+  //     },
+  //   ],
+  // },
 ];
 
 export const Navbar = () => {
